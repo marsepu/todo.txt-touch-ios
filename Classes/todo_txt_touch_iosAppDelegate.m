@@ -148,7 +148,8 @@
 								 @"NO", @"windows_line_breaks_preference", 
 								 @"NO", @"work_offline_preference", 
 								 @"NO", @"need_to_push",
-								 @"/todo", @"file_location_preference", nil];	
+								 @"/todo", @"file_location_preference", 
+                                 @"none", @"badgeCount_preference", nil];	
     [defaults registerDefaults:appDefaults];
 	
     remoteClientManager = [[RemoteClientManager alloc] initWithDelegate:self];
